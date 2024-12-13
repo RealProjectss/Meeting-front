@@ -20,7 +20,7 @@ const HomePage = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <h1 className="text-3xl font-bold mb-6">Audio Chat Room</h1>
-      <div className="space-y-6">
+      <div className="space-y-6 space-x-3">
         {!isJoining ? (
           <>
             <button
